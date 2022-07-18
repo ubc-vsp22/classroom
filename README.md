@@ -1,6 +1,6 @@
 ## Vancouver Summer Program 2022
 
-> This is the master repository for the Vancouver Summer Program 2022 package offered by the Department of Electrical and Computer Engineering at The University of British Columbia.
+> *This is the master repository for the Vancouver Summer Program 2022 package offered by the Department of Electrical and Computer Engineering at The University of British Columbia.*
 
 ## Course Materials
 
@@ -11,11 +11,11 @@ You will find lecture materials and assignments for the courses:
 
 ## Discussions
 
-We will use a **Slack** workspace for all discussions related to this VSP package.
+We will use a [**Slack** workspace](https://ubc-vsp22.slack.com) for all discussions related to this VSP package. 
 
-[Discussions](https://ubc-vsp22.slack.com): ask and answer questions about lectures, assignment, and anything related to the courses.
+_Use this Slack workspace to ask and answer questions about lectures, assignment, and anything related to the courses._
 
-* Use [this link](https://join.slack.com/t/ubc-vsp22/shared_invite/zt-1cjhz9pbl-8CgEhC70dhWRW3gqCu4f7A) to join the Slack workspace.
+* Follow [this link](https://join.slack.com/t/ubc-vsp22/shared_invite/zt-1cjhz9pbl-8CgEhC70dhWRW3gqCu4f7A) to join the Slack workspace.
 
 ## Schedule
 
