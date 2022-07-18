@@ -1,7 +1,5 @@
 # Building Modern Web Applications
 
-## VSP 2022
-
 * [Lectures](https://github.com/ubc-vsp22/classroom/tree/master/karthik/lectures) - for lecture slides and notes
     1. [Introduction](./lectures/lecture-0.pdf)
     2. [HTTP, HTML, and CSS](./lectures/lecture-1.pdf)

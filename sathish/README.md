@@ -1,7 +1,5 @@
 # Algorithms
 
-## VSP 2022
-
 ## Lectures
 
 1. Introduction
