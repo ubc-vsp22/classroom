@@ -19,6 +19,10 @@
 
 
 
+## Textbook
+
+If you should need a textbook then we recommend [**Algorithms**](http://algorithmics.lsi.upc.edu/docs/Dasgupta-Papadimitriou-Vazirani.pdf) by Dasgupta, Papadimitriou and Vazirani because it prioritizes brevity and a draft is available for free.
+
 ## Notes
 
 1. [How to Write Proofs](notes/0-proofwriting.pdf)
