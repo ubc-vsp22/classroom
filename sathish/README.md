@@ -32,6 +32,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 5. [Infinity](notes/0-Notes-infinity.pdf)
 6. [Basics for Algorithms](notes/1-algorithms.pdf)
 7. [Big-O notation](notes/2-big-oh.pdf)
+8. [Insertion Sort and its Analysis](notes/3-InsertionSort.pdf)
 
 ## Assignments
 
