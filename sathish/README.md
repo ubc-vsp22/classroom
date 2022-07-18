@@ -1,6 +1,8 @@
 # Algorithms
 
-## Lectures
+## Lecture Topics
+
+> Some topics may span multiple class meetings and, in some cases, multiple topics maybe covered during the same class meeting.
 
 1. Introduction
 1. Stable Marriages
@@ -17,6 +19,16 @@
 
 
 
+## Notes
+
+1. [How to Write Proofs](notes/0-proofwriting.pdf)
+2. [Common Mistakes in Discrete Mathematics](notes/0-mistakes.pdf)
+3. [Relations and Functions](notes/0-relations+functions.pdf)
+4. [Power Sets and Product Sets](notes/0-power+product.pdf)
+5. [Infinity](notes/0-Notes-infinity.pdf)
+6. [Basics for Algorithms](notes/1-algorithms.pdf)
+7. [Big-O notation](notes/2-big-oh.pdf)
+
 ## Assignments
 
 1. Assignment 1: Due ...
@@ -26,8 +38,8 @@
 
 ## Exams
 
-1. Exam 1: Topics covered in lectures 1-6
-2. Exam 2: Topics covered in lectures 7-10 (material from Lectures 11 & 12 as bonus)
+1. Exam 1: Topics 1-6
+2. Exam 2: Topics  7-10 (material from Topics 11 & 12 as bonus)
 
 ## Assessment
 
