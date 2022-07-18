@@ -2,10 +2,10 @@
 
 ## VSP 2022
 
-* [Lectures](https://github.com/ubc-vsp22/classroom/tree/master/lectures) - for lecture slides and notes
+* [Lectures](https://github.com/ubc-vsp22/classroom/tree/master/karthik/lectures) - for lecture slides and notes
     1. [Introduction](./lectures/lecture-0.pdf)
     2. [HTTP, HTML, and CSS](./lectures/lecture-1.pdf)
-* [Tutorials](https://github.com/ubc-vsp22/classroom/tree/master/tutorials) - additional tutorials that might be useful
+* [Tutorials](https://github.com/ubc-vsp22/classroom/tree/master/karthik/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp22/classroom/blob/master/tutorials/git-setup.md)
 * [Group Registration](https://forms.gle/3VHAhKsUkrQAg9sR7) - submit your groups here
 * [Assignments](./assignments) - assignments will be released here
