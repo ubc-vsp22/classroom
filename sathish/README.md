@@ -32,12 +32,24 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 7. [Big-O notation](notes/2-big-oh.pdf)
 8. [Insertion Sort and its Analysis](notes/3-InsertionSort.pdf)
 
+## Grading
+
+| Type of Assessment | How Many? | Weight Per Assessment | Total |
+| ------------------ | --------- | ------------- | ----- |
+| Assignment | 4 | 15% | 60% |
+| Exams | 2 | 20% | 40% |
+
 ## Assignments
 
-1. Assignment 1: Due ...
-2. Assignment 2:
-3. Assignment 3:
-4. Assignment 4:
+> *Each assignment is done in pairs.*
+
+| # | Due Date |
+| - | ------- |
+| Assignment 1 | |
+| Assignment 2 | |
+| Assignment 3 | |
+| Assignment 4 | |
+
 
 ## Exams
 
@@ -45,10 +57,3 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 | ------ | --------------------------------------------------- |
 | Exam 1 | Topics 1-6                                          |
 | Exam 2 | Topics 7-10 (material from Topics 11 & 12 as bonus) |
-
-## Assessment
-
-| Type of Assessment | How Many? | Weight Per Assessment | Total |
-| ------------------ | --------- | ------------- | ----- |
-| Assignment | 4 | 15% | 60% |
-| Exams | 2 | 20% | 40% |
