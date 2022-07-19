@@ -2,7 +2,7 @@
 
 ## Lecture Topics
 
-> Some topics may span multiple class meetings and, in some cases, multiple topics maybe covered during the same class meeting.
+> *Some topics may span multiple class meetings and, in some cases, multiple topics may be covered during the same class meeting.*
 
 1. Introduction
 1. Stable Marriages
@@ -16,8 +16,6 @@
 1. Dynamic Programming
 1. P vs. NP
 1. Randomized Algorithms
-
-
 
 ## Textbook
 
@@ -43,10 +41,14 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 ## Exams
 
-1. Exam 1: Topics 1-6
-2. Exam 2: Topics  7-10 (material from Topics 11 & 12 as bonus)
+| Exam # | Topics Covered                                      |
+| ------ | --------------------------------------------------- |
+| Exam 1 | Topics 1-6                                          |
+| Exam 2 | Topics 7-10 (material from Topics 11 & 12 as bonus) |
 
 ## Assessment
 
-1. Four assignments: 4 x 15% = 60%
-2. Two exams: 2 x 20%: 40%
+| Type of Assessment | How Many? | Weight Per Assessment | Total |
+| ------------------ | --------- | ------------- | ----- |
+| Assignment | 4 | 15% | 60% |
+| Exams | 2 | 20% | 40% |
