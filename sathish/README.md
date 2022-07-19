@@ -55,5 +55,5 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 | Exam # | Date | Topics Covered                                      |
 | ------ | ---- |--------------------------------------------------- |
-| Exam 1 | August 02 | Topics 1-6                                          |
+| Exam 1 | August 03 | Topics 1-6                                          |
 | Exam 2 | August 10 | Topics 7-10 (material from Topics 11 & 12 as bonus) |
