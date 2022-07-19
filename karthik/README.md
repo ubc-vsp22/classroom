@@ -1,6 +1,6 @@
 # Building Modern Web Applications
 
-* [Lectures](https://github.com/ubc-vsp22/classroom/tree/master/karthik/lectures) - for lecture slides and notes
+* [Lectures](./lectures) - for lecture slides and notes
     1. [Introduction](./lectures/lecture-0.pdf)
     2. [HTTP, HTML, and CSS](./lectures/lecture-1.pdf)
 * [Tutorials](https://github.com/ubc-vsp22/classroom/tree/master/karthik/tutorials) - additional tutorials that might be useful
