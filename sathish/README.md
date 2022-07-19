@@ -35,7 +35,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 ## Grading
 
 | Type of Assessment | How Many? | Weight Per Assessment | Total |
-| ------------------ | :-------: | ------------- | ----- |
+| ------------------ | :-------: | :-----------: | :---: |
 | Assignment | 4 | 15% | 60% |
 | Exams | 2 | 20% | 40% |
 
@@ -53,7 +53,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 ## Exams
 
-| Exam # | Topics Covered                                      |
-| ------ | --------------------------------------------------- |
-| Exam 1 | Topics 1-6                                          |
-| Exam 2 | Topics 7-10 (material from Topics 11 & 12 as bonus) |
+| Exam # | Date | Topics Covered                                      |
+| ------ | ---- |--------------------------------------------------- |
+| Exam 1 | August 02 | Topics 1-6                                          |
+| Exam 2 | August 10 | Topics 7-10 (material from Topics 11 & 12 as bonus) |
