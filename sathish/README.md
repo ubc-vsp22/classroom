@@ -43,8 +43,8 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 > *Each assignment is done in pairs.*
 
-| # | Due Date |
-| - | ------- |
+| Assignment # | Due Date |
+| ------------ | -------- |
 | Assignment 1 | |
 | Assignment 2 | |
 | Assignment 3 | |
