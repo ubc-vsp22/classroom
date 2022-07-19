@@ -35,7 +35,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 ## Grading
 
 | Type of Assessment | How Many? | Weight Per Assessment | Total |
-| ------------------ | --------- | ------------- | ----- |
+| ------------------ | :-------: | ------------- | ----- |
 | Assignment | 4 | 15% | 60% |
 | Exams | 2 | 20% | 40% |
 
