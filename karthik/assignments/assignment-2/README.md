@@ -25,4 +25,4 @@ In this assignment, you will make the web app responsive. That is, the app will 
 ## Submission Instructions
 
 - Create a branch, and name it appropriately (eg. `assignment-2`)
-- Make sure to push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline (**July 27, 2022 11:59 AM**).
+- Make sure to push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline (**July 28, 2022 11:59 AM**).
