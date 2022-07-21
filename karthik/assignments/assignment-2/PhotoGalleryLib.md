@@ -8,17 +8,17 @@ The JavaScript file can be found [here](PhotoGalleryLib.js).
 
 Simply add a `<script>` tag like the following to use this in your code:
 
-`<script src="https://raw.githubusercontent.com/ubc-vsp19/classroom/master/assignments/assignment-2/PhotoGalleryLib.js"></script>`
+`<script src="/libs/PhotoGalleryLib.js"></script>`
 
 ## Functions
 
 - `PhotoGalleryLib.onSizeClassChange (callback)`
 
-    This function is used for detecting screen size changes. This function takes a callback as an argument, which is called whenever the screen size is changed. One of the strings "small", "medium", or "large" will be passed as an argument to the callback function when the screen size is changed. Note that the callback function will only be called when the screen size changes from one size class to another (ex, small to medium). It will not be called repeatedly while the screen size is being changed within a particular size class like large.
+    This function is used for detecting screen size changes. This function takes a callback as an argument, which is called whenever the screen size is changed. One of the strings `"small"`, `"medium"`, or `"large"` will be passed as an argument to the callback function when the screen size is changed. Note that the callback function will only be called when the screen size changes from one size class to another (ex, small to medium). It will not be called repeatedly while the screen size is being changed within a particular size class like large.
 
 - `PhotoGalleryLib.generateGrid (imageUrls, size)`
 
-    This function is used for generating a table DOM element which can be used to display a grid of images. The `imageUrls` argument is an array of image URLs which are supposed to be displayed in the table. These can be relative URLs like './images/foo.jpg' or even http URLs. The `size` argument can be one of "small", "medium", or "large". a 1x8 grid is made for small screen sizes, a 2x4 grid is made for medium screen sizes, and a 4x2 grid is made for large screen sizes.
+    This function is used for generating a table DOM element which can be used to display a grid of images. The `imageUrls` argument is an array of image URLs which are supposed to be displayed in the table. These can be relative URLs like `'./images/foo.jpg'` or even http URLs. The `size` argument can be one of `"small"`, `"medium"`, or `"large"`. a 1x8 grid is made for small screen sizes, a 2x4 grid is made for medium screen sizes, and a 4x2 grid is made for large screen sizes.
 
 - `PhotoGalleryLib.createModal ()`
 
