@@ -5,8 +5,8 @@
 > *Some topics may span multiple class meetings and, in some cases, multiple topics may be covered during the same class meeting.*
 
 1. Introduction
-1. Stable Marriages
-1. Basic Algorithmic Analysis
+1. [Stable Marriages](https://docs.google.com/presentation/d/1YvJ7-r0ABGU8POBdU1feHQngT1RjnJO-8Y7yESPRUJk/edit?usp=sharing)
+1. [Basic Algorithmic Analysis](https://docs.google.com/presentation/d/1DW-AwNyQym9x7zOFCzlKTEUgtnf9dVgqKh7KoiDD2Og/edit?usp=sharing)
 1. Divide and Conquer
 1. Graphs and Trees I (Definitions and Proof Approaches)
 1. Graphs and Trees II (Breadth First Search, Directed Acyclic Graphs)
