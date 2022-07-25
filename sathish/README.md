@@ -31,6 +31,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 6. [Basics for Algorithms](notes/1-algorithms.pdf)
 7. [Big-O notation](notes/2-big-oh.pdf)
 8. [Insertion Sort and its Analysis](notes/3-InsertionSort.pdf)
+9. Recursion: [Basics](notes/recursion.pdf) and [More Analysis](notes/recursion2.pdf)
 
 ## Grading
 
