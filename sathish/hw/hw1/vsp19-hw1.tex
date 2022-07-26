@@ -1,0 +1,239 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% All the content is in one file because I do not expect multiple editors.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% packages
+
+\usepackage{latexsym}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{newcent}
+%\usepackage{times}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{fullpage}
+% \usepackage{complexity}
+\usepackage{hyphenat}
+\usepackage{multirow}
+
+\usepackage[mathscr]{euscript}
+
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\cA}{\mathscr A}
+\newcommand{\cF}{\mathcal F}
+\newcommand{\cB}{\mathscr B}
+\newcommand{\cM}{\mathscr M}
+\newcommand{\cG}{\mathscr G}
+\newcommand{\cP}{\mathscr P}
+\newcommand{\cL}{\mathscr L}
+\newcommand{\cX}{\mathscr X}
+\newcommand{\cZ}{\mathscr Z}
+\newcommand{\cE}{\mathscr E}
+\newcommand{\cN}{\mathscr N}
+\newcommand{\cT}{\mathscr T}
+\newcommand{\ran}{\text{ran}}
+\newcommand{\dom}{\text{dom}}
+\newcommand{\supp}{\text{supp}}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\var}{\text{Var}}
+\newcommand{\ind}{{\mathbf 1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% basic definitions, environments
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+\newtheorem{property}{Property}
+\newtheorem{observation}{Observation}
+\newtheorem{remark}{Remark}
+
+\newenvironment{proof}
+        {\noindent {\em Proof.}~~~} %\\
+        {\begin{flushright}$\Box$\end{flushright}}
+
+\addtolength{\oddsidemargin}{-0.25in}
+\addtolength{\evensidemargin}{-0.25in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.25in}
+\addtolength{\textheight}{0.75in}	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% title details
+
+\title{
+  Written Assignment 1 \\
+  \large
+  Vancouver Summer Program 2019 -- Algorithms -- UBC \\
+  \vspace*{0.2in} \hrule
+}
+
+%\author{
+%	Sathish Gopalakrishnan
+%}
+
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\setlength{\baselineskip}{0.90\baselineskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% the abstract
+
+%% no abstract needed
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{empty}
+
+\vspace*{-0.75in}
+
+\begin{itemize}
+\item You should work with a partner.
+\item You must typeset your solutions.
+\item Submit your work using Gradescope by {\bf 6:00 p.m. on Sunday, July 21}.
+\item \textbf{Notation.} $\N = \{1,2,\dotsc\} \subset \{0,1,2,\dotsc\} = \Z_{+}$, and $\R_{+} = [0,\infty)$.
+\end{itemize}
+
+\hrule
+
+ \begin{enumerate}
+\item (Enter Fibonacci) The Fibonacci sequence is defined as follows: $F_{0} = F_{1} = 1$, and $F_{n} = F_{n-1} + F_{n-2}$ for all integers $n \geq 2$.
+  \begin{enumerate}
+%    \item Use mathematical induction to show that $F_{n} \geq 2^{n/2}$ for all $n \geq 6$. There is more than one base case; identify all base cases!
+      \item You are to derive an efficient algorithm to compute the $n$th Fibonacci number. Observe that 
+\begin{align*}
+  F_{n} & = F_{n-1} + F_{n-2}\\
+  F_{n-1} & = F_{n-1} + 0 \cdot F_{n-2}.
+\end{align*}
+
+If we write this linear system in terms of matrices, we have
+\begin{align*}
+  \begin{bmatrix}
+    F_{n} \\ 
+  F_{n-1}
+  \end{bmatrix} =
+  \begin{bmatrix}
+    1&1\\
+    1 & 0
+  \end{bmatrix}
+\begin{bmatrix}
+    F_{n-1} \\ 
+  F_{n-2}
+\end{bmatrix}
+\end{align*}
+
+Using this linear relation, derive an algorithm to compute $F_{n}$. Your algorithm should run in time $O (\log n)$. \\\ \textbf{Hint:} Use repeated squaring to compute matrix powers.
+  
+  \item Now suppose that writing every bit of the output to memory counts as an operation that we wish to account for in our running-time analysis (in the previous part, we disregard the time required to write the output to memory). Can you compute $F_{n}$ in time that is bounded by a polynomial in the size of the input? Justify your answer.
+
+\item (\textbf{Bonus}) Find $a$ if $a$ and $b$ are integers such that $x^2 - x - 1$ is a factor of $ax^{17} + bx^{16} + 1$. \textbf{Hint}: The answer is $F_{n}$ for some $n \geq 1$. It is enough to show this and find $n$ explicitly; you do not need to compute $F_{n}$. 
+  \end{enumerate}
+% \item \textbf{A Gentle Mathematical Warm-up.} 
+%   Here we will show that for every positive integer $n$, it is necessary
+%   for $2^n + 1$ to be a prime number that $n$ is a \emph{power of two}. In
+%     other words, we will prove the statement ``if $n$ a positive integer and
+%     $2^n + 1$ is prime, then $n$ is a power of two.''
+%     \begin{enumerate}
+%     \item Show that for any reals $a$ and $b$, $a \neq b$, and positive integer $n$,
+%       $(a-b) | (a^n - b^n)$. Do \emph{not} use induction! \textbf{Hint}: Use
+%       geometric series to expand $a^n - b^n$.
+%     \item Deduce that if $n$ is a positive integer and $2^{n}+1$ is prime,
+%       then $n = 2^{k}$ for some $k\geq 0$. \textbf{Hint:} Assume
+%       that $n$ is not a power of two but $2^{n} + 1$ is prime, and use the
+%       previous part to arrive at a contradiction.
+%     \item Accordingly, is $2^{50} + 1$ a prime number? Can you conclude using
+%       the previous part solely whether or not $257$ is prime? Justify your
+%       answers.
+%     \end{enumerate}
+
+    
+% \item \textbf{Enter Fibonacci.} The Fibonacci sequence is defined as follows: $F_{0} = F_{1} = 1$, and $F_{n} = F_{n-1} + F_{n-2}$ for all integers $n \geq 2$.
+%   \begin{enumerate}    
+%   \item Use mathematical induction to show that $F_{n} \geq 2^{n/2}$ for all $n \geq 6$. There is more than one base case; identify all base cases! 
+
+% %https://artofproblemsolving.com/wiki/index.php?title=1988_AIME_Problems/Problem_13
+% \item (\textbf{Bonus}) Find $a$ if $a$ and $b$ are integers such that $x^2 - x - 1$ is a factor of $ax^{17} + bx^{16} + 1$. \textbf{Hint}: The answer is $F_{n}$ for some $n \geq 1$. It is enough to show this and find $n$ explicitly; you do not need to compute $F_{n}$.  
+%   \end{enumerate}
+
+% \item (Studyitis) During VSP 2018, the students are sitting in an $n \times n$ grid. A sudden outbreak of studyitis (a rare condition that lasts forever; symptoms include yearning for homework) causes some students to get infected. The infection begins to spread every minute (in discrete time-steps). Two students are considered adjacent if they share an edge (i.e., front, back, left or right, but NOT diagonal); thus, each student is adjacent to 2, 3 or 4 others. A student is infected in the next time step if either
+%   \begin{itemize}
+%   \item the student was previously infected (there is no cure for this condition), or
+%   \item the student is adjacent to {\em at least two} students who are affected by studyitis.
+%   \end{itemize}
+  
+%   Prove that if less than $n$ students are initially infected then the whole class will not be completely infected.
+  
+%   \textbf{Hint:} Can you identify some property at the initial stage and prove, by induction, that this property is preserved at each time step? Think of {\em invariants}.
+
+\item (Time Complexity)
+
+\begin{enumerate} 
+\item Algorithms $A$ and $B$ spend exactly $T_{A}(n) = 0.1n^{2} \log_{10} (n)$ and $T_{B}(n) = 2.5n^{2}$ microseconds, respectively, for a problem of size $n$. Choose the algorithm, which is better in the Big-Oh sense, and find out a problem size $n_{0}$ such that for any larger size $n > n_{0}$ the chosen algorithm outperforms the other. If your problems are of the size $n \leq 10^{9}$, which algorithm will you recommend to use?
+\item Let $f(n) = (\log n)^{\log n}$ and $g(n) = 2^{(\log_{2} n)^{2}}$. Determine whether $f \in O(g)$, $f \in \Omega(g)$, or both (in which case $f \in \Theta(g)$).
+\item Show that for any $f,g: \Z_{+} \to \R_{+}$, $O(f+g) = O\bigl(\max\{f,g\}\bigr)$. Recall that $O(\cdot)$ is a set (see notes \#1), and therefore one has to show both $O(f+g) \subset O\bigl(\max\{f,g\}\bigr )$ and $O\bigl (\max\{f,g\} \bigr ) \subset O(f+g)$.
+% \item Find the running time of the following procedure in Big-Oh notation.
+
+% \begin{empheq}[box=\fbox]{align*}
+%     &\underline{\textsc{Foo}(N)}\\
+%     & k \leftarrow 0\\
+%     & \text{for } i \leftarrow 1 \text{ to } N\\
+%     & \qquad \text{for } j \leftarrow 1 \text{ to } N\\
+%     & \qquad \qquad k \leftarrow i+j\\
+%     & \text{return } k 
+% \end{empheq}
+
+
+  \end{enumerate}
+
+%\item (Testing i*Phones.) You are testing the physical durability of the new i*Phones to determine the (maximum) height from which they can fall and still not break. You are performing this testing in increments of half a feet. You want to find the largest height, $X$, from which an i*Phone can be safely dropped. If you wanted to minimize the number of devices used for this test, you could start at 0.5 feet, and keep increasing the height to a maximum of $H \times 0.5$ feet, until a drop breaks the device. This sequential test would require only one device for testing but would require (potentially) a large number of tests. There is a natural tradeoff between the number of devices you break during the testing and number of tests performed. (For example, a binary search between $0$ and $H$ would require $\log{H}$ devices in the worst case.) 
+%	
+%	Suppose your manager at a*Pple Corp. limits you to a testing budget of $n$ devices, determine an efficient strategy for identifying $X$. Let $g_{n}(H)$ be the number of tests needed by a strategy given a maximum height $H$ and $n$ devices. A strategy is efficient if $\lim_{H \to \infty} g_{n}(H)/g_{n-1}(H) = 0$.
+%	
+%	{\em Clearly describe your testing strategy and prove that it is indeed efficient.}
+
+
+\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% the bibliography starts here.
+
+%\newpage
+%\bibliographystyle{acm}
+%\setlength{\baselineskip}{0.8\baselineskip}
+%\bibliography{../../Bibliography/CompleteBibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% other closing material
+
+% \appendix
+% \input{appendix.tex}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
