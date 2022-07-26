@@ -46,7 +46,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 | Assignment # | Due Date |
 | ------------ | -------- |
-| Assignment 1 | |
+| Assignment 1 | July 27 by 10:00 p.m. |
 | Assignment 2 | |
 | Assignment 3 | |
 | Assignment 4 | |
