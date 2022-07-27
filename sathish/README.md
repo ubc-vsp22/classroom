@@ -33,6 +33,15 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 8. [Insertion Sort and its Analysis](notes/3-InsertionSort.pdf)
 9. Recursion: [Basics](notes/recursion.pdf) and [More Analysis](notes/recursion2.pdf)
 
+## Practice Problems
+
+1.   Set 1 ([partially solved](handouts/VSP___InClass0 - solutions.pdf))
+2.   Set 2 ([questions](VSP___InClass1.pdf), [solutions](VSP___InClass1 - solutions.pdf))
+
+## Assignments
+
+1.   Set 1 ([questions](handouts/VSP___HW1.pdf))
+
 ## Grading
 
 | Type of Assessment | How Many? | Weight Per Assessment | Total |
