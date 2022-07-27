@@ -36,7 +36,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 ## Practice Problems
 
 1.   Set 1: [partially solved](handouts/VSP___InClass0 - solutions.pdf)
-2.   Set 2: [questions](VSP___InClass1.pdf), [solutions](handouts/VSP___InClass1 - solutions.pdf)
+2.   Set 2: [questions](handouts/VSP___InClass1.pdf), [solutions](handouts/VSP___InClass1 - solutions.pdf)
 
 ## Assignments
 
