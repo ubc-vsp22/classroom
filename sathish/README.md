@@ -8,7 +8,7 @@
 1. [Stable Marriages](https://docs.google.com/presentation/d/1YvJ7-r0ABGU8POBdU1feHQngT1RjnJO-8Y7yESPRUJk/edit?usp=sharing)
 1. [Basic Algorithmic Analysis](https://docs.google.com/presentation/d/1DW-AwNyQym9x7zOFCzlKTEUgtnf9dVgqKh7KoiDD2Og/edit?usp=sharing)
 1. [Divide and Conquer](https://drive.google.com/file/d/1GdCR5DoeXzFGZ9SZu5ClCMDOZ7p_ln6f/view?usp=sharing)
-1. Graphs and Trees I (Definitions and Proof Approaches)
+1. [Graphs and Trees I](https://docs.google.com/presentation/d/1ddoI5uk8pF6j6wOOLi68lppD2v52QA5NZHy8DyKGUL0/edit?usp=sharing) (Definitions and Proof Approaches)
 1. Graphs and Trees II (Breadth First Search, Directed Acyclic Graphs)
 1. Greedy Algorithms
 1. Graphs and Trees III (Spanning Trees, Shortest Paths)
