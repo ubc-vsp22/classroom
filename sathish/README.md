@@ -47,7 +47,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 | Type of Assessment | How Many? | Weight Per Assessment | Total |
 | ------------------ | :-------: | :-----------: | :---: |
-| Assignment | 4 | 15% | 60% |
+| Assignment | 3 | 20% | 60% |
 | Exams | 2 | 20% | 40% |
 
 ## Assignments
@@ -57,9 +57,8 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 | Assignment # | Due Date |
 | ------------ | -------- |
 | Assignment 1 | July 27 by 10:00 p.m. |
-| Assignment 2 | |
-| Assignment 3 | |
-| Assignment 4 | |
+| Assignment 2 | August 2 by 10:00 p.m. |
+| Assignment 3 | August 8 by 10:00 p.m. |
 
 
 ## Exams
