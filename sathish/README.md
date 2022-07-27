@@ -9,7 +9,7 @@
 1. [Basic Algorithmic Analysis](https://docs.google.com/presentation/d/1DW-AwNyQym9x7zOFCzlKTEUgtnf9dVgqKh7KoiDD2Og/edit?usp=sharing)
 1. [Divide and Conquer](https://drive.google.com/file/d/1GdCR5DoeXzFGZ9SZu5ClCMDOZ7p_ln6f/view?usp=sharing)
 1. [Graphs and Trees I](https://docs.google.com/presentation/d/1ddoI5uk8pF6j6wOOLi68lppD2v52QA5NZHy8DyKGUL0/edit?usp=sharing) (Definitions and Proof Approaches)
-1. Graphs and Trees II (Breadth First Search, Directed Acyclic Graphs)
+1. [Graphs and Trees II](https://drive.google.com/file/d/1nPF0tAlPDObWexWCs0_7w-9R9x3DxEjy/view?usp=sharing) (Breadth First Search, Directed Acyclic Graphs)
 1. Greedy Algorithms
 1. Graphs and Trees III (Spanning Trees, Shortest Paths)
 1. Disjoint Sets
@@ -37,6 +37,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 1.   Set 1: [partially solved](handouts/InClass0-solutions.pdf)
 2.   Set 2: [questions](handouts/InClass1.pdf), [solutions](handouts/InClass1-solutions.pdf)
+3.   Set 3: [questions](handouts/InClass2.pdf)
 
 ## Assignments
 
