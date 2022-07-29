@@ -11,5 +11,5 @@
 * [Assignments](./assignments) - assignments will be released here
     1. [Assignment 1](./assignments/assignment-1) - Due 12:00PM Friday, July 22, 2022
     2. [Assignment 2](./assignments/assignment-2) - Due 11:59PM Thursday, July 28, 2022
-    3. Assignment 3 - Due 12:00PM Wednesday, August 3, 2022
+    3. [Assignment 3](./assignments/assignment-3) - Due 12:00PM Wednesday, August 3, 2022
     4. Assignment 4 - Due 12:00PM Friday, August 5, 2022
