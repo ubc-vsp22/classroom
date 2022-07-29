@@ -39,6 +39,7 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 1.   Set 1: [partially solved](handouts/InClass0-solutions.pdf)
 2.   Set 2: [questions](handouts/InClass1.pdf), [solutions](handouts/InClass1-solutions.pdf)
 3.   Set 3: [questions](handouts/InClass2.pdf)
+3.   Set 4: [questions](handouts/InClass3.pdf), [solutions](handouts/InClass3-solutions.pdf) 
 
 ## Assignments
 
