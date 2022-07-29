@@ -41,7 +41,8 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 
 ## Assignments
 
-1.   Set 1: [questions](handouts/VSP___HW1.pdf)
+1.   Set 1: [questions](handouts/VSP___HW1.pdf), [solutions](handouts/HW1-solutions.pdf)
+1.   Set 2: [questions](handouts/HW2.pdf)
 
 ## Grading
 
