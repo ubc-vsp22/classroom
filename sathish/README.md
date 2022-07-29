@@ -33,6 +33,8 @@ If you should need a textbook then we recommend [**Algorithms**](http://algorith
 7. [Big-O notation](notes/2-big-oh.pdf)
 8. [Insertion Sort and its Analysis](notes/3-InsertionSort.pdf)
 9. Recursion: [Basics](notes/recursion.pdf) and [More Analysis](notes/recursion2.pdf)
+9. [Cryptography](notes/Cryptography.pdf)
+9. [Primality Testing](notes/PrimalityTesting.pdf)
 
 ## Practice Problems
 
