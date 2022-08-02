@@ -4,7 +4,11 @@
     1. [Introduction](./lectures/lecture-0.pdf)
     2. [HTTP, HTML, and CSS](./lectures/lecture-1.pdf)
     3. [JavaScript Basics](./lectures/lecture-2.pdf)
-    4. [DOM and Events](./lectures/lecture-3.pdf)
+    4. [DOM and Events (Part 1)](./lectures/lecture-3.1.pdf)
+    5. [DOM and Events (Part 2)](./lectures/lecture-3.2.pdf)
+    6. [Callback and Closure](./lectures/lecture-4.pdf)
+    7. [Promise](./lectures/lecture-6.1.pdf)
+    8. [AJAX and REST API](./lectures/lecture-7.pdf)
 * [Tutorials](https://github.com/ubc-vsp22/classroom/tree/master/karthik/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp22/classroom/blob/master/tutorials/git-setup.md)
 * [Group Registration](https://forms.gle/3VHAhKsUkrQAg9sR7) - submit your groups here
