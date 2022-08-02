@@ -14,7 +14,7 @@ PORT = 8080	# Port to connect to
 
 delay = True		# Should there be a delay ?
 minDelay = 0 		# if so, the minimum delay in seconds
-maxDelay = 5 		# if so, the maximum delay in seconds
+maxDelay = 3 		# if so, the maximum delay in seconds
 introduceError = True 	# Should we have the server returning an error
 errorProb = 0.50	# If so, with what probability should we introduce errors
 
